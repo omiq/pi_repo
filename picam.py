@@ -81,7 +81,8 @@ def saveImage(settings, width, height, quality, diskSpaceToReserve):
     keepDiskSpaceFree(diskSpaceToReserve)
     time = datetime.now()
     filename = filepath + "/" + filenamePrefix + "-%04d%02d%02d-%02d%02d%02d.jpg" % (time.year, time.month, time.day, time.hour, time.minute, time.second)
-    subprocess.call("raspistill %s -w %s -h %s -t 200 -e jpg -q %s -n -o %s" % (settings, width, height, quality, filename), shell=True)
+    #subprocess.call("raspistill %s -w %s -h %s -t 200 -e jpg -q %s -n -o %s" % (settings, width, height, quality, filename), shell=True)
+    subprocess.call("/home/pi/pi_repo/cam.sh", shell=True)
     print "Captured %s" % filename
 
 # Keep free space above given level
