@@ -15,3 +15,6 @@ convert /home/pi/pics/$DATE.jpg -pointsize 32 -fill red -annotate +700+700 $DATE
 # Convert to a smaller version for web display
 convert /home/pi/pics/$DATE.jpg -resize 600 /home/pi/pics/fresh.jpg
 
+# Delete from local
+rm /home/pi/pics/$DATE.jpg -f
+
