@@ -3,6 +3,7 @@ Raspberry Pi projects
 
 ## Install requests module
 * sudo pip install requests
+* sudo pip install Image
  
 ## Install DropBox
 
