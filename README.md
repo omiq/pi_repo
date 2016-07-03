@@ -1,6 +1,12 @@
 # pi_repo
 Raspberry Pi projects
 
+## Install ImageMagick
+
+Conversion is performed using this command line tool:
+
+* sudo apt-get install imagemagick
+
 ## Install required modules
 
 If your distro does not include these then they must be installed:
