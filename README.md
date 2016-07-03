@@ -6,4 +6,5 @@ Install requests module
  
 Install DropBox
 * git clone https://github.com/andreafabrizi/Dropbox-Uploader.git
+* ./dropbox_uploader.sh
  
