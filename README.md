@@ -1,9 +1,18 @@
 # pi_repo
 Raspberry Pi projects
 
-## Install requests module
+## Install required modules
+
+If your distro does not include these then they must be installed:
+
+Python 2
 * sudo pip install requests
-* sudo pip install Image
+* sudo apt-get install python-pil
+
+Python 3
+* sudo pip3 install requests
+* sudo apt-get install python3-pil
+
  
 ## Install DropBox
 
