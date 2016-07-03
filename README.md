@@ -19,7 +19,14 @@ Python 3
 * sudo pip3 install requests
 * sudo apt-get install python3-pil
 
- 
+## Create directories
+
+* mkdir /home/pi/picam
+* chmod +w /home/pi/picam
+* mkdir /home/pi/pics
+* chmod +w /home/pi/pics
+
+
 ## Install DropBox
 
 * git clone https://github.com/andreafabrizi/Dropbox-Uploader.git
