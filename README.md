@@ -14,10 +14,12 @@ If your distro does not include these then they must be installed:
 Python 2
 * sudo pip install requests
 * sudo apt-get install python-pil
+* sudo apt-get install python-serial
 
 Python 3
 * sudo pip3 install requests
 * sudo apt-get install python3-pil
+* sudo apt-get install python-serial
 
 ## Create directories
 
